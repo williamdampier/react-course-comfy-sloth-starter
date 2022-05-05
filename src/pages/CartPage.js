@@ -27,7 +27,6 @@ const CartPage = () => {
       </main>
     );
   }
-  return <h4>cart page</h4>;
 };
 
 const Wrapper = styled.main`

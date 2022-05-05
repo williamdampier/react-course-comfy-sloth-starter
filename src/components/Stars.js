@@ -10,7 +10,7 @@ const Stars = ({ stars, reviews }) => {
         {stars >= index + 1 ? (
           <BsStarFill />
         ) : stars >= number ? (
-          <BsStarFill />
+          <BsStarHalf />
         ) : (
           <BsStar />
         )}
